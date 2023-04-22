@@ -13,6 +13,8 @@
 		C7F577C629F2E40200C9CC94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7F577C429F2E40200C9CC94 /* Main.storyboard */; };
 		C7F577C829F2E40200C9CC94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7F577C729F2E40200C9CC94 /* Assets.xcassets */; };
 		C7F577CB29F2E40200C9CC94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7F577C929F2E40200C9CC94 /* LaunchScreen.storyboard */; };
+		C7F577D329F2E40900C9CC94 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F577D229F2E40900C9CC94 /* APIResponse.swift */; };
+		C7F577D529F2FA5000C9CC94 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F577D429F2FA5000C9CC94 /* ImageCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C7F577C729F2E40200C9CC94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7F577CA29F2E40200C9CC94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7F577CC29F2E40200C9CC94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7F577D229F2E40900C9CC94 /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		C7F577D429F2FA5000C9CC94 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		C7F577BD29F2E40200C9CC94 /* SearchPhoto */ = {
 			isa = PBXGroup;
 			children = (
+				C7F577D229F2E40900C9CC94 /* APIResponse.swift */,
 				C7F577BE29F2E40200C9CC94 /* AppDelegate.swift */,
 				C7F577C029F2E40200C9CC94 /* SceneDelegate.swift */,
 				C7F577C229F2E40200C9CC94 /* ViewController.swift */,
+				C7F577D429F2FA5000C9CC94 /* ImageCollectionViewCell.swift */,
 				C7F577C429F2E40200C9CC94 /* Main.storyboard */,
 				C7F577C729F2E40200C9CC94 /* Assets.xcassets */,
 				C7F577C929F2E40200C9CC94 /* LaunchScreen.storyboard */,
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7F577C329F2E40200C9CC94 /* ViewController.swift in Sources */,
+				C7F577D529F2FA5000C9CC94 /* ImageCollectionViewCell.swift in Sources */,
 				C7F577BF29F2E40200C9CC94 /* AppDelegate.swift in Sources */,
 				C7F577C129F2E40200C9CC94 /* SceneDelegate.swift in Sources */,
+				C7F577D329F2E40900C9CC94 /* APIResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
